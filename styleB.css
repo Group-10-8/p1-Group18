@@ -1,9 +1,10 @@
-
+/* body/height and width */
 body {
     height: 100vh;
     width: 100vw;
     margin: 0;
 }
+/* sets up boxes horizontally and gives it font/font-size */
 .box-container {
     display: flex;
     flex-direction: row;
@@ -13,7 +14,7 @@ body {
     font-size: 40px;
 
 }
-
+/* seperated by 10x of space and changes the colors to the ones in directions*/
 .box-content {
     flex-grow: 0;
     flex-shrink: 0;
@@ -28,12 +29,14 @@ body {
     margin-right: 10px;
 }
 
+/* hover attribute, color of what it hovers with and cursor */
 .box-content:hover {
     cursor: grab;
     background-color: yellow;
     color: goldenrod;
 }
 
+/* boxes*/
 .box-a {}
 
 .box-b {}
@@ -44,6 +47,7 @@ body {
 
 .box-e {}
 
+/* keeps box F in the bottom right corner */
 .box-f {
     position: absolute;
     bottom: 0;
