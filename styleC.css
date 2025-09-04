@@ -26,20 +26,6 @@ body {
 }
 
 .box-a {
-    background: linear-gradient(#dfe1e7, #ffffff);
-}
-
-.box-b {
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-    background-color: #eeeff2;
-}
-
-.box-b:hover {
-    background-color: #ffcccc;
-    rotate: 180deg;
-}
-
-.box-c {
     animation-duration: 1s;
     animation-name: rotate;
     animation-iteration-count: infinite;
@@ -54,17 +40,32 @@ body {
     }
 }
 
+.box-b {
+    background: linear-gradient(#dfe1e7, #ffffff);
+    
+}
+
+.box-c {
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    background-color: #eeeff2;
+}
+
+.box-c:hover {
+    background-color: #ffcccc;
+    rotate: 180deg;
+}
+
 .box-d {
+    display: none;
+}
+
+.box-e {
     background-color: #eeeff2;
     font-family: Tangerine, serif;
     font-size: 40px;
 }
 
-.box-e {
+.box-f {
     background-color: #dfe1e7;
     box-shadow: 5px -5px 5px 0px teal;
-}
-
-.box-f {
-    display: none;
 }
